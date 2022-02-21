@@ -1,4 +1,3 @@
-FROM nginx
-ADD index.html index.css /usr/share/nginx/html/
+FROM diofathurr/nginxweb:v1
 EXPOSE 80
 
